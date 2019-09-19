@@ -14,6 +14,7 @@
 		56922E6323342C10008794DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56922E6123342C10008794DB /* LaunchScreen.storyboard */; };
 		56922E6E23342C11008794DB /* CostumeTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56922E6D23342C11008794DB /* CostumeTableViewTests.swift */; };
 		56922E7923342C11008794DB /* CostumeTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56922E7823342C11008794DB /* CostumeTableViewUITests.swift */; };
+		56922E87233433C8008794DB /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56922E86233433C8008794DB /* ItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		56922E7423342C11008794DB /* CostumeTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CostumeTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56922E7823342C11008794DB /* CostumeTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumeTableViewUITests.swift; sourceTree = "<group>"; };
 		56922E7A23342C11008794DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56922E86233433C8008794DB /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				56922E5F23342C10008794DB /* Assets.xcassets */,
 				56922E6123342C10008794DB /* LaunchScreen.storyboard */,
 				56922E6423342C10008794DB /* Info.plist */,
+				56922E86233433C8008794DB /* ItemTableViewCell.swift */,
 			);
 			path = CostumeTableView;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56922E5B23342C0F008794DB /* ViewController.swift in Sources */,
+				56922E87233433C8008794DB /* ItemTableViewCell.swift in Sources */,
 				56922E5923342C0F008794DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
